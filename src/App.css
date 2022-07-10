@@ -9,3 +9,32 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+.pokecard {
+  margin: auto;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border: 8px solid cornflowerblue;
+  border-radius: 5%;
+  width: 400px;
+}
+
+.sprite-container {
+  display: flex;
+}
+
+.sprite-img {
+  width: 200px;
+  height: 200px;
+}
+
+.poke-stats {
+  display: flex;
+  justify-content: center;
+
+}
+
+.poke-stat-list {
+  margin-left: 1rem;
+}
