@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-pokecards/static/css/main.4b4800c2.css",
+    "main.js": "/react-pokecards/static/js/main.acde0219.js",
+    "index.html": "/react-pokecards/index.html",
+    "main.4b4800c2.css.map": "/react-pokecards/static/css/main.4b4800c2.css.map",
+    "main.acde0219.js.map": "/react-pokecards/static/js/main.acde0219.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b4800c2.css",
+    "static/js/main.acde0219.js"
+  ]
+}
