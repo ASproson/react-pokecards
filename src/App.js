@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react"
+import Axios from "axios"
 
 function App() {
 
@@ -7,6 +8,11 @@ function App() {
 
   const handleSearchPokemon = e => {
     setSearchPokemon(e.target.value)
+  }
+
+  const callPokemon = () => {
+    Axios.get(`https://pokeapi.co/api/v2/pokemon/${searchPokemon}`)
+    .then((res) => console.log(res.data))
   }
 
   return (
@@ -17,7 +23,7 @@ function App() {
       <div>
         <input type="text" placeholder="Search..." onChange={handleSearchPokemon}></input>
       </div>
-      <button>Submit</button>
+      <button onClick={callPokemon}>Submit</button>
     </div>
   );
 }
